@@ -1,0 +1,104 @@
+{
+    "subvalues": [
+        {
+            "id": "MA147LL/A",
+            "name": "Apple 60 GB iPod with Video Playback Black",
+            "value": 399
+        },
+        {
+            "id": "6H500F0",
+            "name": "Maxtor DiamondMax 11 - hard drive - 500 GB - SATA-300",
+            "value": 350
+        },
+        {
+            "id": "SP2514N",
+            "name": "Samsung SpinPoint P120 SP2514N - hard drive - 250 GB - ATA-133",
+            "value": 92
+        },
+        {
+            "id": "978-1933988177",
+            "name": "Lucene in Action, Second Edition",
+            "value": 30.5
+        },
+        {
+            "id": "F8V7067-APL-KIT",
+            "name": "Belkin Mobile Power Cord for iPod w/ Dock",
+            "value": 19.95
+        },
+        {
+            "id": "978-0641723445",
+            "name": "The Lightning Thief",
+            "value": 12.5
+        },
+        {
+            "id": "IW-02",
+            "name": "iPod & iPod Mini USB 2.0 Cable",
+            "value": 11.5
+        },
+        {
+            "id": "0553573403",
+            "name": "A Game of Thrones",
+            "value": 7.99
+        },
+        {
+            "id": "055357342X",
+            "name": "A Storm of Swords",
+            "value": 7.99
+        },
+        {
+            "id": "0553579908",
+            "name": "A Clash of Kings",
+            "value": 7.99
+        },
+        {
+            "id": "0553293354",
+            "name": "Foundation",
+            "value": 7.99
+        },
+        {
+            "id": "0441385532",
+            "name": "Jhereg",
+            "value": 7.95
+        },
+        {
+            "id": "0380014300",
+            "name": "Nine Princes In Amber",
+            "value": 6.99
+        },
+        {
+            "id": "0812521390",
+            "name": "The Black Company",
+            "value": 6.99
+        },
+        {
+            "id": "0812550706",
+            "name": "Ender's Game",
+            "value": 6.99
+        },
+        {
+            "id": "978-1423103349",
+            "name": "The Sea of Monsters",
+            "value": 6.49
+        },
+        {
+            "id": "080508049X",
+            "name": "The Black Cauldron",
+            "value": 5.99
+        },
+        {
+            "id": "0805080481",
+            "name": "The Book of Three",
+            "value": 5.99
+        },
+        {
+            "id": "978-1857995879",
+            "name": "Sophie's World : The Greek Philosophers",
+            "value": 3.07
+        },
+        {
+            "id": "GB18030TEST",
+            "name": "Test with some GB18030 encoded characters",
+            "value": 0
+        }
+    ]
+}
