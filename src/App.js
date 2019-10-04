@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/label-has-associated-control */
 import React, { Component } from "react";
-import "./App.css";
+import "./css/App.css";
 import zc from "@dvsl/zoomcharts";
 
 const data = require("./resultado.json");
@@ -18,10 +18,12 @@ class App extends Component {
         this.state = {
             name: "",
             search: "",
+            json: "",
             greeting: ""
         };
         this.handleChange = this.handleChange.bind(this);
         this.handleChangeSearch = this.handleChangeSearch.bind(this);
+        this.handleJson = this.handleJson.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
     }
 
@@ -45,15 +47,18 @@ class App extends Component {
                 }
             },
 
-            data: {
-                preloaded: data
-            },
+            data: [
+                {
+                    preloaded: data
+                }
+            ],
 
             toolbar: {
                 fullscreen: true,
                 enabled: true
             }
         });
+
         return chart;
     }
 
@@ -65,6 +70,10 @@ class App extends Component {
         this.setState({ search: event.target.value });
     }
 
+    handleJson(event) {
+        this.setState({ json: event.target.value });
+    }
+
     handleSubmit(event) {
         event.preventDefault();
 
@@ -74,17 +83,27 @@ class App extends Component {
             )}&search=${encodeURIComponent(this.state.search)}`
         )
             .then(response => {
-                // data = response.json();
+                console.log(response);
                 return response.json();
             })
-            .then(state => this.setState(state));
+            .then(state => {
+                console.log("json state1    ", this.state.json);
+                this.setState({ json: state });
+                console.log("json state2 ", this.state.json);
+
+                // setInterval(function() {
+                //     alert("Hello");
+                // }, 10000);
+            });
     }
 
     render() {
         return (
           <div className="App">
-            <form onSubmit={this.handleSubmit}>
+            <div className="chart-wrapper">
               <div id="pieChart" className="chart" />
+            </div>
+            <form onSubmit={this.handleSubmit}>
               <label htmlFor="name">Coluna: </label>
               <input
                 id="name"

@@ -1,79 +1,14 @@
 {
     "subvalues": [
         {
-            "id": "3007WFP",
-            "name": "Dell Widescreen UltraSharp 3007WFP",
-            "value": 2199
-        },
-        {
-            "id": "100-435805",
-            "name": "ATI Radeon X1900 XTX 512 MB PCIE Video Card",
-            "value": 649.99
-        },
-        {
-            "id": "EN7800GTX/2DHTV/256M",
-            "name": "ASUS Extreme N7800GTX/2DHTV (256 MB)",
-            "value": 479.95
-        },
-        {
-            "id": "MA147LL/A",
-            "name": "Apple 60 GB iPod with Video Playback Black",
-            "value": 399
-        },
-        {
-            "id": "6H500F0",
-            "name": "Maxtor DiamondMax 11 - hard drive - 500 GB - SATA-300",
-            "value": 350
-        },
-        {
-            "id": "9885A004",
-            "name": "Canon PowerShot SD500",
-            "value": 329.95
-        },
-        {
-            "id": "VA902B",
-            "name": "ViewSonic VA902B - flat panel display - TFT - 19\"",
-            "value": 279.95
-        },
-        {
-            "id": "TWINX2048-3200PRO",
-            "name": "CORSAIR  XMS 2GB (2 x 1GB) 184-Pin DDR SDRAM Unbuffered DDR 400 (PC 3200) Dual Channel Kit System Memory - Retail",
-            "value": 185
-        },
-        {
-            "id": "0579B002",
-            "name": "Canon PIXMA MP500 All-In-One Photo Printer",
-            "value": 179.99
-        },
-        {
-            "id": "SP2514N",
-            "name": "Samsung SpinPoint P120 SP2514N - hard drive - 250 GB - ATA-133",
-            "value": 92
-        },
-        {
-            "id": "VS1GB400C3",
-            "name": "CORSAIR ValueSelect 1GB 184-Pin DDR SDRAM Unbuffered DDR 400 (PC 3200) System Memory - Retail",
-            "value": 74.99
-        },
-        {
             "id": "978-1933988177",
             "name": "Lucene in Action, Second Edition",
             "value": 30.5
         },
         {
-            "id": "F8V7067-APL-KIT",
-            "name": "Belkin Mobile Power Cord for iPod w/ Dock",
-            "value": 19.95
-        },
-        {
             "id": "978-0641723445",
             "name": "The Lightning Thief",
             "value": 12.5
-        },
-        {
-            "id": "IW-02",
-            "name": "iPod & iPod Mini USB 2.0 Cable",
-            "value": 11.5
         },
         {
             "id": "0553573403",
@@ -134,41 +69,6 @@
             "id": "978-1857995879",
             "name": "Sophie's World : The Greek Philosophers",
             "value": 3.07
-        },
-        {
-            "id": null,
-            "name": null,
-            "value": null
-        },
-        {
-            "id": null,
-            "name": null,
-            "value": null
-        },
-        {
-            "id": null,
-            "name": null,
-            "value": null
-        },
-        {
-            "id": null,
-            "name": null,
-            "value": null
-        },
-        {
-            "id": null,
-            "name": null,
-            "value": null
-        },
-        {
-            "id": "SOLR1000",
-            "name": "Solr, the Enterprise Search Server",
-            "value": 0
-        },
-        {
-            "id": "UTF8TEST",
-            "name": "Test with some UTF-8 encoded characters",
-            "value": 0
         }
     ]
 }

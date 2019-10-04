@@ -1,8 +1,8 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const pino = require("express-pino-logger")();
-const helmet = require("helmet");
 const cors = require("cors");
+const helmet = require("helmet");
 
 const app = express();
 app.use(helmet());
@@ -37,10 +37,11 @@ app.get("/api/greeting", async (req, res) => {
 
     // console.log(test);
 
-    res.setHeader("Content-Type", "application/json");
     res.send(test);
     // res.send({ greeting: `${test}` });
-    // res.send(JSON.stringify({ greeting: `Hello ${name}!` }));
+    // res.send(
+    //     JSON.stringify({ greeting: `Solr Query: q="${name}:${search}"!` })
+    // );
     // res.send(JSON.stringify({ greeting: `Hello ${test}!` }));
 });
 

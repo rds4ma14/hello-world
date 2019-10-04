@@ -5,6 +5,7 @@ const fs = require("fs");
 
 function execute(param1, param2, client) {
     // cat%3A*&rows=50&sort=price%desc&wt=json
+    // fq=price%3A%5B4%20TO%2010%5D&q=.... price:[4 TO 10]
     const consulta = `q=${param1}%3A${param2}&rows=50&sort=price%20desc&wt=json`;
     console.log(consulta);
     return client
@@ -33,6 +34,7 @@ function execute(param1, param2, client) {
             return data;
         })
         .then(data => {
+            // ordening
             // data.sort(function(a, b) {
             //     // eslint-disable-next-line no-nested-ternary
             //     return a.value > b.value ? -1 : a.value < b.value ? 1 : 0;
